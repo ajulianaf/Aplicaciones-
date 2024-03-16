@@ -1,0 +1,16 @@
+*{
+    margin: 3px;
+    padding: 5px;
+    background-color: #F4EDCC;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.mes {
+    border-color: #F4EDCC;
+    background-color: #A4CE95 ;
+}
+
+
