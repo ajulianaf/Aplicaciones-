@@ -8,7 +8,7 @@
 </head>
 <body>
     <section>
-        <ul >
+        <ul>
             <li><button class="mes"> Enero </button></li>
             <li><button class="mes"> Febrero </button></li>
             <li><button class="mes"> Marzo </button></li>
@@ -22,14 +22,38 @@
             <li><button class="mes"> Noviembre </button></li>
             <li><button class="mes"> Diciembre </button></li>
         </ul>
-        <section id="dias">
-
-
-        </section>
     </section>
 
-    <form action=""></form>
+    <section id="dias">
+    </section>
 
+    <div>
+        <input type="checkbox" id="toogleFormulario" class="toggle">
+        <label for="toogleFormulario" class="btn" > Agregar evento </label>
+
+        <form id="formularioEvento" class="oculto">
+            <label for="nomEvent">Nombre del evento</label>
+            <input type="text" id="nomEvent" required>
+
+            <label for="fechaEvent"> Fecha del evento: </label>
+            <input type="date" id="fechaEvent" required>
+
+            <button type="submit"> Guardar </button>
+        </form>
+    </div>
+
+    <table class="tabla">
+        <thead>
+            <tr>
+                <th >Nombre</th>
+                <th >Fecha</th>
+                <th >Eliminar</th>
+            </tr>
+        </thead>
+        <tbody id="tablaDatos"></tbody>
+    </table>
+
+    <form action=""></form>
     <script src="js/index.js"></script>
     
 </body>
