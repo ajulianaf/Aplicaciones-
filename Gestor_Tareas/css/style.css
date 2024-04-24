@@ -1,15 +1,138 @@
 *{
-    background-color: #F8FAE5;
-}
-
-#encabezado{
-    color: #B19470;
-    background-color: #76453B;
+    background-color: #FFFFEC;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .titulo{
+    color: #C6EBC5;
+    background-color: #597E52;
     font-size: 70px;
     text-align: center;
-}
-
-
-.enunciado{
-    background-color: #43766C;
-}
+  }
+  
+  #regTarea{
+    border: 2px solid #597E52;
+    width: 90%;
+    margin:auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .primerSub{
+    height: 50px;
+    font-size: 30px;
+    font-style: italic;
+    color: #597E52;
+    background-color: #C6EBC5;
+    border-style: dashed;
+    width: 550px;
+  }
+  
+  .segundoSub{
+    height: 50px;
+    font-size: 30px;
+    font-style: italic;
+    color: #597E52;
+    background-color: #C6EBC5;
+    border-style: dashed;
+  }
+  
+  .tercerSub{
+    height: 50px;
+    font-size: 30px;
+    font-style: italic;
+    color: #597E52;
+    background-color: #C6EBC5;
+    border-style: dashed;
+  }
+  
+  #formTarea{
+    margin-top: 5px;
+  }
+  
+  #agenTarea{
+    border: 2px solid #597E52;
+    width: 80%;
+    margin-left: 5px;
+    text-align: left;
+    font-size: 15px;
+    height: 25px;
+  }
+  
+  #agenTarea:focus{
+    border: 2px solid #597E52;
+    box-shadow: 0 0 10px #597E52;
+  }
+  
+  #btnAgregar{
+    background-color: #597E52;
+    border-color: #597E52;
+    color: #C6EBC5;
+    font-size: 15px;
+    border-style: solid;
+    margin-left: 4px;
+    width: 18%;
+    height: 29px;
+  }
+  
+  #btnAgregar:hover{
+    background-color: #C6EBC5;
+    color: #597E52;
+    border-color: #597E52;
+  }
+  
+  #listaTarea{
+    border: 2px solid #597E52;
+    width: 1000px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+    height: fit-content;
+    line-height: 25px;
+  }
+  
+  ul {
+    padding-left: 45px;
+    list-style-type: none;
+    font-size: 15px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  
+  .editar{
+    margin-left: 400px;
+    margin-right: 10px;
+    background-color: #da8422;
+    border-color: #da8422;
+    color: #FFFFEC;
+    font-size: 15px;
+    border-style: solid;
+    width: 10%;
+    height: 20px;
+  }
+  
+  .eliminar{
+    margin-right: 10px;
+    background-color: #bd4ea1;
+    border-color: #bd4ea1;
+    color: #FFFFEC;
+    font-size: 15px;
+    border-style: solid;
+    width: 10%;
+    height: 20px;
+  }
+  
+  #completar{
+  
+    margin-left: 30px;
+    background-color: #9149a1;
+    border-color: #9149a1;
+    color: #FFFFEC;
+    font-size: 15px;
+    border-style: solid;
+    width: 15%;
+    height: 20px;
+  }

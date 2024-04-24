@@ -1,23 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Gestor de Tareas</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css_Tar/style.css">
+  <title>Gestor de Tareas</title>
 </head>
 <body>
-    <header id="encabezado">Gestor de Tareas</header>
-    <section>
-        <form name="formulario">
-            <label class="enunciado">Ingrese la tarea a guardar: </label>
-            <br>
-            <input type="text" name="tarea">
-            <br>
-        </form>
-    </section>
-
-
-    <script src="java/index.js"></script>
+  <h1 class="titulo">Gestor de Tareas</h1>
+  <div>
+    <form id="formTarea">
+      <input type="text" id="agenTarea" placeholder="Ingrese una tarea">
+      <button type="button" id="btnAgregar" onclick="agregarTarea()">Agendar</button>
+    </form>
+    <div>
+      <table id="regTarea">
+        <thead>
+          <tr>
+            <th class="primerSub">Nombre Tarea</th>
+            <th class="segundoSub">Opciones</th>
+            <th class="tercerSub">Estado</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+    <ul id="listaTarea"></ul>
+  </div>
 </body>
+<script src="js_Tar/index.js"></script>
 </html>
